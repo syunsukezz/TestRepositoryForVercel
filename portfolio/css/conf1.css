@@ -1,0 +1,294 @@
+@charset "utf-8";
+html,body{
+	width:auto;
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 84.5%;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000000;
+	background-color: transparent;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Osaka", Verdana, "ＭＳ Ｐゴシック", "MS P Gothic" Helvetica, sans-serif;
+}
+img{
+	border: none;
+	vertical-align: bottom;
+}
+body{
+	background: #000;
+}
+/*--------- レイアウト ---------*/
+#wrapper{
+	background: rgb(134, 134, 134);
+	width: 1024px;
+	margin: 0px auto;
+	z-index: 50;
+	position: absolute;
+	left :328px;
+}
+header{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	color: #101039;
+	font-family: "Helvetica";
+	font-size: 170px;
+	line-height: 100px;
+	text-indent: 20px;
+	border-bottom: 1px #000 solid;
+	background-image: url(../images/アートボード\ 1-100.jpg);
+	padding: 0%; 
+	
+	
+}
+nav{
+	width: 100%;
+	background: #987;
+}
+main{
+	width: 100%;
+	padding: 0px;
+	margin: 0px auto;
+	background: none;
+}
+footer{
+	width: 100%;
+	height: 20px;
+	background: #432;
+	color: #fff;
+	text-align: center;
+}
+/*--------- メニュー用レイアウト ---------*/
+nav ul{
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+nav li{
+	list-style: none;
+	flex-basis: 256px;
+	height: 100px;
+}
+nav li a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: #960;
+	background-image: url(../images/アートボード\ 3-100.jpg);
+	color: #101039;
+	border-bottom: 1px #000 solid;
+	font-size: 70px;
+	text-decoration: none;
+	cursor: pointer;
+	font-family:'Times', sans-serif;
+	font-weight: 600;
+	
+
+}
+.title
+{
+	transform: scale(0.8,1.0);
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 600;
+}
+nav li a:hover{
+	background: #f90;
+	color: #fff;
+}
+
+.visit{
+	display: none;
+}
+/*--------- タグ ---------*/
+
+h2{
+	width:1024px;
+	height: 50px;
+	
+	margin: 0;
+	font-size: 60px;
+	color:#101039;
+	background-image:url(../images/アートボード\ 2-100.jpg);
+	border: 2px #000 solid;
+	justify-content: left;
+}
+
+ul{
+	width:500px;
+	padding: 5px;
+	margin: 5px auto 40px;
+	border: 1px #999 solid;
+	list-style: inside decimal;
+}
+table{
+	width:1000px;
+	padding: 5px;
+	margin: 5px auto 40px;
+	border: 3px #000 solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+th,td{
+	padding: 2px 5px;
+	font-size: 30px;
+	text-align: left;
+}
+th{
+	border-right: 2px #000 solid;
+	
+	color: #101039;
+}
+
+
+#gallery{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	flex-basis: 256px;
+	margin: 0;
+	padding: 0;
+}
+.gallery_box{
+	width: 200px;
+	
+	background: #fff;
+	margin: 10px;
+	box-shadow: 2px 2px 10px #999;
+
+}
+.gallery_box img{
+	width :100%;
+	margin: 0px;
+}
+
+header .title{
+	transform: translateX(-170px) translateY(40px)scaleX(0.7);
+	 
+}
+.content
+{
+	width: 1024px;
+}
+img
+{
+	margin: 0 auto;
+	display: block;
+
+}
+h2 div
+{
+	transform: translate(-100px,-10px)scaleX(0.8);
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 600;
+
+}
+#links{ 
+     height: 800px;
+	 width: 1024px;
+	display: flex;
+}
+#link
+{
+	
+	float: left;
+	width: 600px;
+	border-right: 3px #000 solid;
+	font-size: 40px;
+	
+}
+#sns
+{
+	.title
+	{
+		transform: translateX(-70px)scaleX(0.7);
+
+		font-size: 40px;
+	}
+	grid-area: sns;
+	width: 524px;
+}
+svg
+{
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 500px;
+}
+line
+{
+	width: 1680px;
+}
+#bg iframe
+{
+	width: 1650px;
+	height:2500px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+#content
+{
+	position: absolute;
+	top: 302px;
+	left: 2px;
+	z-index: 20;
+	height: 2180px;
+	width: 1680px;
+}
+.gallery_box p a{
+	display: block;
+	width: 80%;
+	margin :10px auto;
+	background: #789;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.gallery_box p :hover{
+	background: #f00;
+	
+
+}
+main #links #sns .fb_iframe_widget
+{
+	display: block;
+	span
+	{
+		width: 524px;
+		display: block;
+	}
+}
+ol
+{
+	font-size: 30px;
+}
+.hidden a
+{
+	display: block;
+	margin: 0 auto;
+	font-size: 50px;
+	text-decoration: none;
+	color:rgb(134, 134, 134) ;
+}
+a-scene
+{
+	position: absolute;
+	z-index: 10;
+}
+#floatingmanu
+{
+	position: fixed;
+	z-index: 50;
+	width: 1024px;
+	height: 50px; ;
+}

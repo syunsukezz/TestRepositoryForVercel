@@ -1,0 +1,25 @@
+
+
+----------------------------<CMakeListMakerの使い方>------------------------------------
+
+
+①　準備
+
+1.Zipファイルをダウンロードしたら解凍して "CMakeListMaker.xcodeproj" を開く。
+
+2.一回実行して「プロジェクトファイルのパスを入力してください。」と出たら "exit" と打つ。
+
+3.実行したら実行ファイルができるのでFinderでx230〇〇に行ってcommand + shift + .(ピリオド) で
+  隠しファイルを表示して　ライブラリ -> Developer -> Xcode -> DerivedDataに行って
+  "CMakeListMaker-fbanmcpmhftpxoezvucvvttzeine"　みたいなファイルをひらく。
+
+4.Build -> Products -> Debug と移動して中身のCMakeListMaker をデスクトップかどっかに置く
+
+
+
+②使い方
+1.実行ファイルを開く
+
+2.ファイルをドラッグ&ドロップ
+
+3.ターミナルにコマンドをコピペ
