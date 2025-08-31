@@ -37,7 +37,7 @@ header{
 	line-height: 100px;
 	text-indent: 20px;
 	border-bottom: 1px #000 solid;
-	background-image: url(../images/アートボード\ 1-100.jpg);
+	background-image: url(../images/artboard1-100.jpg);
 	padding: 0%; 
 	
 	
@@ -80,7 +80,7 @@ nav li a{
 	width: 100%;
 	height: 100%;
 	background: #960;
-	background-image: url(../images/アートボード\ 3-100.jpg);
+	background-image: url(../images/artboard3-100.jpg);
 	color: #101039;
 	border-bottom: 1px #000 solid;
 	font-size: 70px;
@@ -114,7 +114,7 @@ h2{
 	margin: 0;
 	font-size: 60px;
 	color:#101039;
-	background-image:url(../images/アートボード\ 2-100.jpg);
+	background-image:url(../images/artboard2-100.jpg);
 	border: 2px #000 solid;
 	justify-content: left;
 }
